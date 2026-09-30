@@ -50,7 +50,7 @@ def is_palindrom_sentence(s: str) -> bool:
     return s == s[::-1]
 
 
-def palindrom_product(x):
+def palindrom_product(x: int) -> bool:
     """
     Ermittelt die größte Palindrom-Dezimalzahl kleiner als x,
     die das Produkt von zwei 3-stelligen Zahlen ist.
@@ -76,7 +76,7 @@ def palindrom_product(x):
     return highest
 
 
-def get_dec_hex_palindrom(x):
+def get_dec_hex_palindrom(x: int) -> int:
     """
     Ermittelt die größte Zahl kleiner als x, die sowohl im Dezimal-
     als auch im Hexadezimalsystem ein Palindrom ist.

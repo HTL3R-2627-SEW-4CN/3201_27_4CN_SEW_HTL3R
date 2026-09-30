@@ -18,7 +18,7 @@ __status__ = "Fertig"
 from typing import List, Tuple
 
 
-def collatz(n, p=3):
+def collatz(n: int, p: int = 3) -> int:
     """
     Berechnet den nächsten Wert der Collatz-Folge.
 

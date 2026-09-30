@@ -16,7 +16,7 @@ __status__ = "Fertig"
 from time import time
 
 
-def M(n):
+def M(n: int) -> int:
     """
     McCarthy-91-Funktion.
 

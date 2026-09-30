@@ -10,9 +10,7 @@ __author__ = "Darko Ljubobratovic"
 __klasse__ = "4CN"
 __example__ = "SEW4/01/F1"  # Gegenstand/Übungsblatt/Aufgabe(Kapitel)
 __date__ = "24.09.2026"
-__version__ = "1.0.0"
 __license__ = "GNU GPLv3"
-__status__ = "Fertig"
 
 
 def is_palindrom(s: str) -> bool:

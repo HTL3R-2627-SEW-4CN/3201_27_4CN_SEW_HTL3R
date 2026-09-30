@@ -9,9 +9,7 @@ __author__ = "Darko Ljubobratovic"
 __klasse__ = "4CN"
 __example__ = "SEW4/01/F3"  # Gegenstand/Übungsblatt/Aufgabe(Kapitel)
 __date__ = "30.09.2026"
-__version__ = "1.0.0"
 __license__ = "GNU GPLv3"
-__status__ = "Fertig"
 
 from time import time
 

@@ -83,8 +83,12 @@ def longest_collatz_sequence(n: int, p: int = 3) -> Tuple[int, int]:
     return (erg_start, erg_len)
 
 
-if __name__ == "__main__":
+def main() -> None:
     try:
         longest_collatz_sequence(13, 5)
     except (RecursionError):
         print("RecursionError: 1 wird nicht erreicht")
+
+
+if __name__ == "__main__":
+    main()

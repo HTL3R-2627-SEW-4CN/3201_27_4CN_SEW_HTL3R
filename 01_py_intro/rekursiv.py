@@ -35,7 +35,7 @@ def M(n: int) -> int:
     return n - 10
 
 
-if __name__ == "__main__":
+def main() -> None:
     t0 = time()
     m_list = []
     for i in range(200):
@@ -51,3 +51,7 @@ if __name__ == "__main__":
     print(m_dict)
     print(f"Dauer: {t1 - t0:.6f} s")
     print("Bemerkenswert: Bis 101 ist es immer 91, danach steigt es immer um 1")
+
+
+if __name__ == "__main__":
+    main()

@@ -93,8 +93,8 @@ def get_dec_hex_palindrom(x: int) -> int:
     """
     for i in range(x - 1, 0, -1):
         dec = str(i)
-        hex = to_base(i, 16)
-        if dec == dec[::-1] and hex == hex[::-1]:
+        hexa = to_base(i, 16)
+        if dec == dec[::-1] and hexa == hexa[::-1]:
             return i
     return 0
 

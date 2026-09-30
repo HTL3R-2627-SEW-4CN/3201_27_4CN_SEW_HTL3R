@@ -84,6 +84,10 @@ def longest_collatz_sequence(n: int, p: int = 3) -> Tuple[int, int]:
 
 
 def main() -> None:
+    """
+    Hauptprogramm: testet longest_collatz_sequence mit p = 5
+    und fängt RecursionError ab, falls 1 nicht erreicht wird.
+    """
     try:
         longest_collatz_sequence(13, 5)
     except (RecursionError):

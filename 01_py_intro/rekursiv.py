@@ -36,6 +36,10 @@ def M(n: int) -> int:
 
 
 def main() -> None:
+    """
+    Hauptprogramm: erzeugt m_list und m_dict mit M(0) bis M(199),
+    gibt beide aus und misst die Berechnungsdauer.
+    """
     t0 = time()
     m_list = []
     for i in range(200):

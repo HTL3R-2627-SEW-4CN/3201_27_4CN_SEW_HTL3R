@@ -6,6 +6,7 @@ Beispiel:
 """
 
 __author__ = "Darko Ljubobratovic"
+__klasse__ = "4CN"
 __example__ = "SEW4/01/F"  # Gegenstand/Übungsblatt/Aufgabe(Kapitel)
 __date__ = "30.09.2026"
 __version__ = "1.0.0"
